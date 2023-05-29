@@ -6,14 +6,16 @@
 }
 
 
-/*685-68=617*/
+  /*685-68=617 height*/
 
-
+  /*Header*/
 
 header {
   background-color: rgb(64, 78, 237);
   width: 100%;
 }
+
+  /*Nav section - green box on lightblue bg*/
 
 .bgnav {
   padding: 15px 0;
@@ -30,6 +32,8 @@ header {
   padding:10px;
   }
 
+  /*download section - pink box on blue bg*/
+
   .bgdwnld {
     padding:108px;
     display:flex;
@@ -38,8 +42,47 @@ header {
 
   .download {
     background-color: pink;
-    width:920px;
+    width:850px;
     height:400px;
   }
+
+  /*main divs*/
+
+  .gray {
+    background-color: rgb(185, 185, 185);
+  }
+
+  .div {
+    height:617px;
+    padding:108px;
+    display:flex;
+    justify-content:center;
+  }
+
+.container {
+  width:1200px;
+  height:400px;
+  display:flex;
+}
+
+.last {
+  order:1;
+}
+.first {
+  order:-1;
+}
+
+
+.lpink {
+  background-color: pink;
+  width:30%;
+}
+
+.lblue {
+  background-color: lightskyblue;
+  width:70%;
+}
+
+
 
 
