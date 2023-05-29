@@ -1,35 +1,35 @@
-* {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
+  * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
 
 
   /*685-68=617 height*/
 
   /*Header*/
 
-header {
-  background-color: rgb(64, 78, 237);
-  width: 100%;
-}
+  header {
+    background-color: rgb(64, 78, 237);
+    width: 100%;
+  }
 
   /*Nav section - green box on lightblue bg*/
 
-.bgnav {
-  padding: 15px 0;
-  background-color: lightskyblue;
-}
+  .bgnav {
+    padding: 15px 0;
+    background-color: lightskyblue;
+  }
 
 .navigation {
-  background-color: rgb(186, 201, 59);
-  width: 100%;
-  max-width:920px;
-  margin: auto;
-  display:flex;
-  justify-content:space-between;
-  padding:10px;
+    background-color: rgb(186, 201, 59);
+    width: 100%;
+    max-width:920px;
+    margin: auto;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
   }
 
   /*download section - pink box on blue bg*/
@@ -59,43 +59,76 @@ header {
     justify-content:center;
   }
 
-.container {
-  width:1200px;
-  height:400px;
-  display:flex;
-}
+  .container {
+    width:1200px;
+    height:400px;
+    display:flex;
+  }
 
-.last {
-  order:1;
-}
-.first {
-  order:-1;
-}
+  .last {
+    order:1;
+  }
+  .first {
+    order:-1;
+  }
 
 
-.lpink {
-  background-color: pink;
-  width:30%;
-}
+  .lpink {
+    background-color: pink;
+    width:30%;
+  }
 
-.lblue {
-  background-color: lightskyblue;
-  width:70%;
-}
+  .lblue {
+    background-color: lightskyblue;
+    width:70%;
+  }
 
-/*Green box*/
+  /*Green box*/
 
-.greenboxdiv {
-  display:flex;
-  justify-content: center;
-  height:1200px;
-  padding:150px;
-}
+  .greenboxdiv {
+    display:flex;
+    justify-content: center;
+    height:1200px;
+    padding:150px;
+  }
 
-.gb {
-  background-color: green;
-  height:900px;
-  width:1200px;
-}
+  .gb {
+    background-color: green;
+    height:900px;
+    width:1200px;
+  }
+
+  /*footer*/
+
+  footer {
+    background-color: rgb(63, 63, 63);
+  }
+
+/*top-side*/
+
+  .topf {
+    height:600px;
+    padding:50px;
+    display:flex;
+    justify-content: center;
+  }
+
+  .tfheight {
+    width:1200px;
+    height:500px;
+    display:flex;
+  }
+
+  .peach {
+    background-color: peachpuff;
+    width:25%;
+  }
+
+  .aquamarine {
+    background-color: aquamarine;
+    width:75%;
+  }
+
+/*bottom-side*/
 
 
