@@ -1,0 +1,31 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+header {
+  background-color: rgb(64, 78, 237);
+  height:685px;
+  width: 100%;
+}
+
+.bgnav {
+  padding: 15px 0;
+  background-color: lightskyblue;
+}
+
+.navigation {
+  background-color: rgb(186, 201, 59);
+  width: 100%;
+  max-width:920px;
+  margin: auto;
+  display:flex;
+  justify-content:space-between;
+  padding:10px;
+  }
+
+
