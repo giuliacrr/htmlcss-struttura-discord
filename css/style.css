@@ -6,10 +6,12 @@
 }
 
 
+/*685-68=617*/
+
+
 
 header {
   background-color: rgb(64, 78, 237);
-  height:685px;
   width: 100%;
 }
 
@@ -26,6 +28,18 @@ header {
   display:flex;
   justify-content:space-between;
   padding:10px;
+  }
+
+  .bgdwnld {
+    padding:108px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .download {
+    background-color: pink;
+    width:920px;
+    height:400px;
   }
 
 
